@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --pink-light: #c59dd2;
+  --pink-base: #9547a5;
+  --pink-dark: #7d298a;
+  --pink-low: #3f0f41;
+  --blue-light: #73b6d2;
+  --blue-base: #358bb9;
+  --blue-mid: #2374a4;
+  --blue-dark: #144a72;
+  --blue-low: #08233c;
+  --shape-stroke: #002347;
+  --shape-hover: #001933;
+  --shape-base: #000f1f;
+  --shape-background: #00050a;
+  --text-title: #f8fbfb;
+  --text-body: #e2e7e9;
+  --text-label: #bac6c9;
+
+  --ff-raleway: "Raleway", sans-serif;
+
+  --title-lg: bold 48px var(--ff-raleway);
+  --title-md: bold 40px var(--ff-raleway);
+  --title-sm: 700 32px var(--ff-raleway);
+  --title-xs: bold 1rem var(--ff-raleway);
+  --subtitle: 500 32px var(--ff-raleway);
+  --body-lg: 600 20px var(--ff-raleway);
+  --body-md: 600 1rem var(--ff-raleway);
+  --body-sm: 600 14px var(--ff-raleway);
+  --body-xs: 600 12px var(--ff-raleway);
+}
+h1 {
+  font: var(--title-lg);
+}
+h2 {
+  font: var(--title-md);
+}
+h3 {
+  font: var(--title-sm);
+}
+p {
+  font: var(--subtitle);
+}
+a {
+  text-decoration: none;
+  font: 500 14px var(--ff-raleway);
+}
+strong {
+  font: var(--title-sm);
+  color: var(--blue-light);
+}
+span {
+  font: var(--subtitle);
+}

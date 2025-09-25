@@ -1,0 +1,16 @@
+header {
+  padding: 20px;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & img {
+    }
+    & a {
+      padding: 15px 20px;
+      background-color: var(--pink-dark);
+      border-radius: 8px;
+      font: 700 14px/1rem var(--ff-raleway);
+    }
+  }
+}

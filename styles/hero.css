@@ -1,0 +1,25 @@
+.hero {
+  margin-inline: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16.38px;
+  margin-top: 48px;
+  text-align: center;
+  img {
+    position: absolute;
+    width: 250%;
+    height: auto;
+    z-index: -1;
+  }
+  h1 {
+    width: 335px;
+    font: bold 28px var(--ff-raleway);
+  }
+  span {
+    max-width: 435px;
+    font: 500 14px var(--ff-raleway);
+    line-height: 1.3;
+  }
+}

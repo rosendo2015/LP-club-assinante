@@ -33,6 +33,10 @@
   --body-sm: 600 14px var(--ff-raleway);
   --body-xs: 600 12px var(--ff-raleway);
 }
+body {
+  background-color: var(--shape-background);
+  color: var(--text-title);
+}
 h1 {
   font: var(--title-lg);
 }
@@ -48,6 +52,7 @@ p {
 a {
   text-decoration: none;
   font: 500 14px var(--ff-raleway);
+  color: inherit;
 }
 strong {
   font: var(--title-sm);
@@ -55,4 +60,7 @@ strong {
 }
 span {
   font: var(--subtitle);
+}
+.desktop-only {
+  display: none;
 }

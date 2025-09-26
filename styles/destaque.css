@@ -1,0 +1,51 @@
+.destaque {
+  padding-inline: 1rem;
+  margin-inline: auto;
+  position: relative;
+  text-align: center;
+  & img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  :nth-child(2) {
+    top: -40px;
+    right: 100px;
+  }
+  :nth-child(3) {
+    top: 70px;
+    left: 0px;
+  }
+  :nth-child(4) {
+    top: 70px;
+    right: 0px;
+  }
+  span {
+    max-width: 335px;
+    font: var(--body-md);
+  }
+}
+
+@media screen and (width > 80rem) {
+  .destaque {
+    width: 1280px;
+
+    span {
+      font: var(--subtitle);
+      line-height: 64px;
+    }
+    :nth-child(2) {
+      top: -40px;
+      right: 50%;
+    }
+    :nth-child(3) {
+      top: 100px;
+      left: 0px;
+    }
+    :nth-child(4) {
+      top: 100px;
+      right: 0px;
+    }
+  }
+}

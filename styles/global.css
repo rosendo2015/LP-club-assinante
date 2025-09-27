@@ -56,6 +56,9 @@ a {
   font: 500 14px var(--ff-raleway);
   color: inherit;
 }
+ul[rule="list"] {
+  list-style: none;
+}
 strong {
   font: var(--title-sm);
   color: var(--blue-light);

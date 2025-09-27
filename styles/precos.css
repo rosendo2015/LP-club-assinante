@@ -1,0 +1,118 @@
+#precos {
+  margin-block: 104px 308px;
+
+  h2 {
+    width: 221px;
+    text-align: center;
+    margin-inline: auto;
+    font-size: 24px;
+  }
+  .container-cards {
+    margin-top: 47px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    .card {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: fit-content;
+      height: 400px;
+
+      background-color: var(--shape-hover);
+      border: 1px solid var(--shape-hover);
+      border-radius: 24px;
+
+      header {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 24px;
+        align-items: center;
+        & span {
+          font-size: 16px;
+          font-weight: 700;
+          color: var(--blue-light);
+        }
+        a {
+          padding: 0;
+          padding: 9px 20px;
+          font-size: 10px;
+          background-color: var(--shape-stroke);
+          border-radius: 5rem;
+        }
+      }
+      .valor {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        & h2 {
+          padding: 0;
+          font-size: 40px;
+          & span {
+            padding: 0;
+            color: inherit;
+            font-size: 20px;
+            font-weight: 700;
+          }
+        }
+        & span {
+          font-weight: 400;
+          font-size: 14px;
+          color: var(--text-label);
+        }
+      }
+      ul[rule="list"] {
+        margin-block: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        img {
+          width: 14px;
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+        }
+        li p {
+          font-size: 12px;
+          color: var(--text-body);
+        }
+      }
+      button {
+        padding: 11.05px 53.05px;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: var(--blue-dark);
+        color: inherit;
+      }
+    }
+    .mensal {
+      background-color: var(--shape-base);
+    }
+    .semestral {
+      header span {
+        color: var(--pink-light);
+      }
+      button {
+        background-color: var(--pink-dark);
+      }
+    }
+    .anual {
+      background-color: var(--shape-base);
+      ul[rule="list"] {
+        gap: 0.75rem;
+      }
+    }
+  }
+}

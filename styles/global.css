@@ -33,12 +33,11 @@
   --body-sm: 600 14px var(--ff-raleway);
   --body-xs: 600 12px var(--ff-raleway);
 }
-html {
-  zoom: 50%;
-}
+
 body {
   background-color: var(--shape-background);
   color: var(--text-title);
+  overflow-x: hidden;
 }
 h1 {
   font: var(--title-lg);

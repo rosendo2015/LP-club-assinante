@@ -1,4 +1,6 @@
 .destaque {
+  max-width: 100%;
+  width: 400px;
   padding-inline: 1rem;
   margin-inline: auto;
   position: relative;
@@ -24,11 +26,13 @@
   span {
     max-width: 335px;
     font: var(--body-md);
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (width > 80rem) {
   .destaque {
+    max-width: 90%;
     width: 1280px;
 
     span {

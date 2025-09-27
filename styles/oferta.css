@@ -1,33 +1,53 @@
 #oferta {
-  margin-top: 221.6px;
-  width: 425px;
-  margin-inline: auto;
+  margin-top: 104px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
   .container-oferta {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 8px;
+    gap: 12px;
     img {
-      width: 32px;
-      height: 32px;
+      width: 20px;
     }
     h2 {
-      font: var(--title-sm);
+      font-size: 24px;
     }
   }
   span {
-    font: var(--body-md);
+    text-align: center;
+    font-size: 14px;
     font-weight: 300;
   }
   .book {
-    margin-top: 300px;
+    margin-top: 117.7px;
     img {
-      width: 467px;
-      height: auto;
+      width: 157.19px;
+    }
+  }
+}
+
+@media screen and (width > 80rem) {
+  #oferta {
+    margin-top: 235px;
+    .container-oferta {
+      img {
+        width: 32px;
+      }
+      h2 {
+        font-size: 32px;
+      }
+    }
+    span {
+      font-size: 1rem;
+    }
+    .book {
+      img {
+        width: 467px;
+      }
     }
   }
 }

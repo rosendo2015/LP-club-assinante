@@ -1,0 +1,33 @@
+#oferta {
+  margin-top: 221.6px;
+  width: 425px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  .container-oferta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+    h2 {
+      font: var(--title-sm);
+    }
+  }
+  span {
+    font: var(--body-md);
+    font-weight: 300;
+  }
+  .book {
+    margin-top: 300px;
+    img {
+      width: 467px;
+      height: auto;
+    }
+  }
+}

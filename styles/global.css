@@ -25,13 +25,16 @@
 
   --title-lg: bold 48px var(--ff-raleway);
   --title-md: bold 40px var(--ff-raleway);
-  --title-sm: 700 32px var(--ff-raleway);
+  --title-sm: 700 2rem var(--ff-raleway);
   --title-xs: bold 1rem var(--ff-raleway);
   --subtitle: 500 32px var(--ff-raleway);
   --body-lg: 400 20px var(--ff-raleway);
   --body-md: 500 1rem var(--ff-raleway);
   --body-sm: 600 14px var(--ff-raleway);
   --body-xs: 600 12px var(--ff-raleway);
+}
+html {
+  zoom: 50%;
 }
 body {
   background-color: var(--shape-background);
